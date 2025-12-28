@@ -41,7 +41,25 @@
       "Animation",
       "Rendering",
       "Video editing"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/blender"
+    },
+    "featured": false,
+    "tags": [
+      "utility",
+      "blender"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/blender/issues",
+    "changelog": "https://github.com/zos-apps/blender/releases"
   },
   "scripts": {
     "build": "tsup",
