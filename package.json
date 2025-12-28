@@ -20,7 +20,28 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "3D creation suite for modeling, animation, rendering, and compositing.",
+    "help": [
+      "Use viewport to navigate 3D space",
+      "Add objects with Shift+A",
+      "Render with F12"
+    ],
+    "docs": "https://zos-apps.github.io/blender",
+    "site": "https://github.com/zos-apps/blender",
+    "shortcuts": [
+      "G Move",
+      "R Rotate",
+      "S Scale",
+      "Tab Edit mode"
+    ],
+    "features": [
+      "3D modeling",
+      "Sculpting",
+      "Animation",
+      "Rendering",
+      "Video editing"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +74,13 @@
     "blender",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
