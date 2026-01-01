@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 interface BlenderProps {
   onClose: () => void;
@@ -20,7 +20,7 @@ const mockObjects: SceneObject[] = [
   { id: '3', name: 'Camera', type: 'camera', position: [7, 5, 7], rotation: [-30, 45, 0], scale: [1, 1, 1], visible: true },
 ];
 
-const Blender: React.FC<BlenderProps> = ({ onClose }) => {
+const Blender: React.FC<BlenderProps> = ({ onClose: _onClose }) => {
   const [objects, setObjects] = useState(mockObjects);
   const [selectedId, setSelectedId] = useState<string | null>('1');
   const [mode, setMode] = useState<'object' | 'edit' | 'sculpt'>('object');
